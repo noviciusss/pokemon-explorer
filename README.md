@@ -6,7 +6,7 @@ An interactive web application that allows users to explore and search through P
 
 ## Live Demo
 
-[Deployed on Vercel](https://pokemon-explorer-noviciusss.vercel.app)
+[Deployed on Vercel](https://pokemon-explorer-liart.vercel.app/)
 
 ## Features
 
