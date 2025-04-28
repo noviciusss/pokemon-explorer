@@ -4,6 +4,10 @@ An interactive web application that allows users to explore and search through P
 
 ![Pokémon Explorer Screenshot](screenshot.png)
 
+## Live Demo
+
+[Deployed on Vercel](https://pokemon-explorer-noviciusss.vercel.app)
+
 ## Features
 
 - Browse through the first 150 Pokémon
@@ -13,59 +17,6 @@ An interactive web application that allows users to explore and search through P
 - Beautiful card layout with Pokémon details
 - Loading and error states
 - Type-based color coding
-
-## Tech Stack
-
-- React 18
-- Tailwind CSS
-- Axios for API calls
-- Vite for build tooling
-- PokeAPI for Pokémon data
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/pokemon-explorer.git
-cd pokemon-explorer
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-## Project Structure
-
-```
-pokemon-explorer/
-├── src/
-│   ├── components/
-│   │   ├── PokemonCard.jsx
-│   │   └── SearchBar.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── public/
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-```
 
 ## Features in Detail
 
@@ -88,6 +39,59 @@ pokemon-explorer/
 - Hover effects on cards
 - Smooth transitions
 
+## Project Structure
+
+```
+pokemon-explorer/
+├── src/
+│   ├── components/
+│   │   ├── PokemonCard.jsx
+│   │   └── SearchBar.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
+
+## Tech Stack
+
+- React 18
+- Tailwind CSS
+- Axios for API calls
+- Vite for build tooling
+- PokeAPI for Pokémon data
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/noviciusss/pokemon-explorer.git
+cd pokemon-explorer
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
 ## API Integration
 
 The application uses the [PokeAPI](https://pokeapi.co/) to fetch Pokémon data:
@@ -96,27 +100,6 @@ The application uses the [PokeAPI](https://pokeapi.co/) to fetch Pokémon data:
   - `/pokemon?limit=150` - Get list of first 150 Pokémon
   - `/pokemon/{id}` - Get detailed Pokémon data
 
-## Deployment
-
-The application can be deployed to various platforms:
-
-### Vercel
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Drag the dist folder to Netlify
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Follow GitHub Pages deployment guide
-```
 
 ## Contributing
 
@@ -133,12 +116,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [PokeAPI](https://pokeapi.co/) for providing the Pokémon data
-- [Tailwind CSS](https://tailwindcss.com/) for the styling framework
-- [React](https://reactjs.org/) for the UI library
-- [Vite](https://vitejs.dev/) for the build tool
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Noviciusss - [@noviciusss](https://github.com/noviciusss)
 
-Project Link: [https://github.com/yourusername/pokemon-explorer](https://github.com/yourusername/pokemon-explorer)
+Project Link: [https://github.com/noviciusss/pokemon-explorer](https://github.com/noviciusss/pokemon-explorer)
